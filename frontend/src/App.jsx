@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-const API = import.meta.env.VITE_API_URL;
+// const API = import.meta.env.VITE_API_URL;
+const API = "";
 function App() {
   const [message, setMessage] = useState("");
   const [reply, setReply] = useState("");
